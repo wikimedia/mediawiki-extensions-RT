@@ -506,6 +506,28 @@ $messages['mk'] = array(
 	'rt-nomatches' => 'Не се пронајдени совпаѓачки RT билети',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'rt-desc' => 'Fancy grensesnitt til RT (Request Tracker)',
+	'rt-inactive' => 'RT-utvidelsen er ikke aktiv',
+	'rt-badquery' => 'RT-utvidelsen støtte på en feil når den forsøkte å kommunisere med RT-databasen',
+	'rt-badlimit' => "Ugyldig LIMIT (l) argument: må være et tall.
+Du prøvde: '''$1'''",
+	'rt-badorderby' => "Ugyldig ORDER BY (ob) argument: må være et standardfelt (se dokumentasjonen).
+Du prøvde: '''$1'''",
+	'rt-badstatus' => "Ugyldig status (s) argument: må være et standardfelt (se dokumentasjonen).
+Du prøvde: '''$1'''",
+	'rt-badcfield' => "Ugyldig egendefinert feltargument: må være et enkelt ord (se dokumentasjonen).
+Du prøvde: '''$1'''",
+	'rt-badqueue' => "Ugyldig queue (q) argument: må være et enkelt ord.
+Du prøvde: '''$1'''",
+	'rt-badowner' => "Ugyldig owner (o) argument: må være et gyldig brukernavn.
+Du prøvde: '''$1'''",
+	'rt-nomatches' => 'Ingen matchende RT-billetter ble funnet',
+);
+
 /** Dutch (Nederlands)
  * @author McDutchie
  * @author Siebrand
@@ -527,28 +549,6 @@ U hebt het volgende geprobeerd: '''$1'''",
 	'rt-badowner' => "Ongeldige parameter owner (o): moet een geldige gebruikersnaam zijn.
 U hebt het volgende geprobeerd: '''$1'''",
 	'rt-nomatches' => 'Er zijn geen RT-meldingen gevonden die aan de critera voldoen',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'rt-desc' => 'Fancy grensesnitt til RT (Request Tracker)',
-	'rt-inactive' => 'RT-utvidelsen er ikke aktiv',
-	'rt-badquery' => 'RT-utvidelsen støtte på en feil når den forsøkte å kommunisere med RT-databasen',
-	'rt-badlimit' => "Ugyldig LIMIT (l) argument: må være et tall.
-Du prøvde: '''$1'''",
-	'rt-badorderby' => "Ugyldig ORDER BY (ob) argument: må være et standardfelt (se dokumentasjonen).
-Du prøvde: '''$1'''",
-	'rt-badstatus' => "Ugyldig status (s) argument: må være et standardfelt (se dokumentasjonen).
-Du prøvde: '''$1'''",
-	'rt-badcfield' => "Ugyldig egendefinert feltargument: må være et enkelt ord (se dokumentasjonen).
-Du prøvde: '''$1'''",
-	'rt-badqueue' => "Ugyldig queue (q) argument: må være et enkelt ord.
-Du prøvde: '''$1'''",
-	'rt-badowner' => "Ugyldig owner (o) argument: må være et gyldig brukernavn.
-Du prøvde: '''$1'''",
-	'rt-nomatches' => 'Ingen matchende RT-billetter ble funnet',
 );
 
 /** Occitan (Occitan)
