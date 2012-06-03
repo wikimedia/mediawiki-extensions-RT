@@ -437,9 +437,10 @@ Anda mencoba: '''$1'''",
 /** Japanese (日本語)
  * @author Aotake
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'rt-desc' => '要求追跡 (RT) システムの装飾的なインタフェース',
+	'rt-desc' => '要求追跡 (RT) システムの装飾的なインターフェイス',
 	'rt-inactive' => 'RT 拡張機能は無効になっています',
 	'rt-badquery' => 'RT 拡張機能は、RT データベースとの通信時にエラーに遭遇しました',
 	'rt-badlimit' => "LIMIT (l) の引数が不正: 数値でなくてはなりません。
