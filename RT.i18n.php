@@ -103,7 +103,7 @@ $messages['be-tarask'] = array(
 	'rt-nomatches' => 'Ня знойдзена супадзеньняў з RT',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Y-M D
@@ -127,7 +127,7 @@ Lakaet hoc'h eus : '''$1'''",
 	'rt-nomatches' => "N'eus bet kavet tiked RT ebet o klotañ",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -214,7 +214,7 @@ $messages['el'] = array(
 	'rt-inactive' => 'Η επέκταση RT δεν είναι ενεργή',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Antur
  * @author Crazymadlover
  * @author Pertile
@@ -239,7 +239,7 @@ Intentaste: '''$1'''",
 	'rt-nomatches' => 'No se encontraron tickets RT coincidentes.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Centerlink
  * @author Nike
  */
@@ -253,7 +253,7 @@ Yritit: '''$1'''",
 Yritit: '''$1'''",
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author IAlex
  * @author Peter17
@@ -367,7 +367,7 @@ Sy spytał: '''$1'''",
 	'rt-nomatches' => 'Wotpowědne naležnosće RT njebuchu namakane',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -389,7 +389,7 @@ A következőt próbáltad: '''$1'''",
 	'rt-nomatches' => 'Nem található egyező RT jegy',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -510,7 +510,7 @@ Dir hutt '''\$1''' probéiert",
 	'rt-nomatches' => 'Et goufe keng RT Tickete fonnt déi dorop passen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -577,7 +577,7 @@ U hebt het volgende geprobeerd: '''$1'''",
 	'rt-nomatches' => 'Er zijn geen RT-meldingen gevonden die aan de critera voldoen',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -599,7 +599,7 @@ Avètz ensajat : '''$1'''",
 	'rt-nomatches' => 'Cap de ticket RT es pas estat trobat',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -643,7 +643,7 @@ It l'has provà: '''$1'''",
 	'rt-nomatches' => 'A son pa stàit trovà gnun ticket RT che a quadro',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Lijealso
  * @author Malafaya
@@ -668,7 +668,7 @@ Tentou: '''$1'''",
 	'rt-nomatches' => 'Não foram encontrados pedidos RT correspondentes',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Giro720
  */
@@ -691,21 +691,21 @@ Você tentou: '''$1'''",
 	'rt-nomatches' => 'Nenhum ticket RT correspondente foi encontrado',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'rt-inactive' => 'Extensia RT nu este activă',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'rt-inactive' => "L'estenzione RT non g'è attivate",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
  */
@@ -728,7 +728,7 @@ $messages['ru'] = array(
 	'rt-nomatches' => 'Не найдено соответствующих карточек RT',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -748,7 +748,7 @@ Skúšali ste: '''$1'''",
 	'rt-nomatches' => 'Neboli nájdené zodpovedajúce požiadavky v RT',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Fluff
  */
 $messages['sv'] = array(
