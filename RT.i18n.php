@@ -434,6 +434,28 @@ Anda mencoba: '''$1'''",
 	'rt-nomatches' => 'Tidak ada tiket RT yang sesuai yang ditemukan',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'rt-desc' => 'Interfaccia di fantasia per RT (Request Tracker)',
+	'rt-inactive' => "L'estensione RT non è attiva",
+	'rt-badquery' => "L'estensione RT ha incontrato un errore durante lo scambio di dati con il database RT",
+	'rt-badlimit' => "Parametro \"LIMIT (l)\" non valido: deve essere un numero.
+Hai inserito: '''\$1'''",
+	'rt-badorderby' => "Parametro \"ORDER BY (ob)\" non valido: deve essere un campo standard (vedi documentazione).
+Hai inserito: '''\$1'''",
+	'rt-badstatus' => "Parametro \"status (s)\" non valido: deve essere un campo standard (vedi documentazione).
+Hai inserito: '''\$1'''",
+	'rt-badcfield' => "Parametro per campo personalizzato non valido: deve essere una parola semplice (vedi documentazione).
+Hai inserito: '''$1'''",
+	'rt-badqueue' => "Parametro \"queue (q)\" non valido: deve essere una parola semplice.
+Hai inserito: '''\$1'''",
+	'rt-badowner' => "Parametro \"owner (o)\" non valido: deve essere un nome utente valido.
+Hai inserito: '''\$1'''",
+	'rt-nomatches' => 'Nessuna corrispondenza a ticket RT trovata.',
+);
+
 /** Japanese (日本語)
  * @author Aotake
  * @author Fryed-peach
