@@ -750,6 +750,7 @@ Skúšali ste: '''$1'''",
 
 /** Swedish (svenska)
  * @author Fluff
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'rt-desc' => 'Fint gränssnitt för RT (Request Tracker)',
@@ -760,6 +761,8 @@ Du försökte: '''$1'''",
 	'rt-badorderby' => "Ogiltig ORDER BY (ob) argument: måste vara ett standardfält (se dokumentationen).
 Du försökte: '''$1'''",
 	'rt-badstatus' => "Ogiltig status (s) argument: måste vara ett standardfält (se dokumentationen).
+Du försökte: '''$1'''",
+	'rt-badcfield' => "Ogiltigt anpassat fältargument: måste vara ett enkelt ord (se dokumentationen).
 Du försökte: '''$1'''",
 	'rt-badqueue' => "Ogiltigt queue (q) argument: måste vara ett enkelt ord.
 Du försökte: '''$1'''",
