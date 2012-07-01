@@ -79,7 +79,7 @@ $messages['ar'] = array(
 	'rt-nomatches' => 'لا تذاكر RT مطابقة تم العثور عليها',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author McDutchie
@@ -185,7 +185,7 @@ Ihre Eingabe: '''$1'''",
 Ihre Eingabe: '''$1'''",
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -277,7 +277,7 @@ Vous avez essayé : '''$1'''",
 	'rt-nomatches' => 'Aucun ticket RT n’a été trouvé',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author McDutchie
  * @author Toliño
  */
@@ -346,7 +346,7 @@ $messages['he'] = array(
 	'rt-nomatches' => 'לא נמצאו כרטיסיות RT תואמות',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
