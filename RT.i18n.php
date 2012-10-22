@@ -815,4 +815,3 @@ Bạn đã gọi: '''$1'''",
 Bạn đã gọi: '''$1'''",
 	'rt-nomatches' => 'Không tìm thấy thẻ RT nào trùng với tìm kiếm',
 );
-
