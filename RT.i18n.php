@@ -562,18 +562,18 @@ $messages['nl'] = array(
 	'rt-desc' => 'Interface naar RT (Request Tracker)',
 	'rt-inactive' => 'De uitbreiding RT is niet actief',
 	'rt-badquery' => 'In de uitbreiding RT is een fout opgetreden in de communicatie met de RT-database',
-	'rt-badlimit' => "Ongeldige parameter LIMIT (l): moet een getal zijn.
-U hebt het volgende geprobeerd: '''$1'''",
-	'rt-badorderby' => "Ongeldige parameter ORDER BY (ob): moet een standaard veld zijn (zie documentatie).
-U hebt het volgende geprobeerd: '''$1'''",
+	'rt-badlimit' => "Ongeldige parameter \"LIMIT\" (l): het moet een getal zijn.
+U hebt het volgende geprobeerd: '''\$1'''",
+	'rt-badorderby' => "Ongeldige parameter \"ORDER BY\" (ob): dit moet een standaard veld zijn (zie documentatie).
+U hebt het volgende geprobeerd: '''\$1'''",
 	'rt-badstatus' => "Ongeldige parameterstatus (s): moet een standaard veld zijn (zie documentatie).
 U hebt het volgende geprobeerd: '''$1'''",
 	'rt-badcfield' => "Ongeldig maatwerkveldargument: het moet een eenvoudig woord zijn (zie documentatie).
 U hebt geprobeerd: '''$1'''",
-	'rt-badqueue' => "Ongeldige parameter queue (q): moet een eenvoudig woord zijn.
-U hebt het volgende geprobeerd: '''$1'''",
-	'rt-badowner' => "Ongeldige parameter owner (o): moet een geldige gebruikersnaam zijn.
-U hebt het volgende geprobeerd: '''$1'''",
+	'rt-badqueue' => "Ongeldige parameter \"queue\" (q): dit moet een eenvoudig woord zijn.
+U hebt het volgende geprobeerd: '''\$1'''",
+	'rt-badowner' => "Ongeldige parameter \"owner\" (o): dit moet een geldige gebruikersnaam zijn.
+U hebt het volgende geprobeerd: '''\$1'''",
 	'rt-nomatches' => 'Er zijn geen RT-meldingen gevonden die aan de critera voldoen',
 );
 
