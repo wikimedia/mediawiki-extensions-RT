@@ -837,3 +837,12 @@ Bạn đã gọi: '''$1'''",
 Bạn đã gọi: '''$1'''",
 	'rt-nomatches' => 'Không tìm thấy thẻ RT nào trùng với tìm kiếm',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'rt-desc' => 'RT（请求跟踪器）的花哨接口',
+	'rt-inactive' => 'RT扩展未激活',
+	'rt-badquery' => '与RT数据库交流时RT扩展遇到一个错误',
+);
