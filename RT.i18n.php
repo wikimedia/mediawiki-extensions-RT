@@ -40,19 +40,20 @@ You tried: '''\$1'''",
  * @author Fryed-peach
  * @author McDutchie
  * @author Purodha
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'rt-desc' => '{{desc}}',
-	'rt-badlimit' => '* \'\'\'Do not translate "LIMIT (l)".\'\'\' The "l" is a lowercase L.
-* Translate "arg" as argument, parameter.',
-	'rt-badorderby' => "* '''Do not translate \"ORDER BY (ob)\".'''
-* Translate \"arg\" as argument, parameter.",
-	'rt-badstatus' => "* '''Do not translate \"status (s)\".'''
-* Translate \"arg\" as argument, parameter.",
-	'rt-badqueue' => "* '''Do not translate \"queue (q)\".'''
-* Translate \"arg\" as argument, parameter.",
-	'rt-badowner' => "* '''Do not translate \"owner (o)\".'''
-* Translate \"arg\" as argument, parameter.",
+	'rt-badlimit' => '{{doc-important|Do not translate "<code>LIMIT (l)</code>".\'\'\' The "<code>(l)</code>" is a lowercase L.}}
+Translate "arg" as argument, parameter.',
+	'rt-badorderby' => '{{doc-important|Do not translate "<code>ORDER BY (ob)</code>".}}
+Translate "arg" as argument, parameter.',
+	'rt-badstatus' => '{{doc-important|Do not translate "<code>status (s)</code>".}}
+Translate "arg" as argument, parameter.',
+	'rt-badqueue' => '{{doc-important|Do not translate "<code>queue (q)</code>".}}
+Translate "arg" as argument, parameter.',
+	'rt-badowner' => '{{doc-important|Do not translate "<code>owner (o)</code>".}}
+Translate "arg" as argument, parameter.',
 );
 
 /** Arabic (العربية)
