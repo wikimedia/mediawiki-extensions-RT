@@ -43,7 +43,7 @@ You tried: '''\$1'''",
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'rt-desc' => '{{desc}}',
+	'rt-desc' => '{{desc|name=RT|url=http://www.mediawiki.org/wiki/Extension:RT}}',
 	'rt-badlimit' => '{{doc-important|Do not translate "<code>LIMIT (l)</code>".\'\'\' The "<code>(l)</code>" is a lowercase L.}}
 Translate "arg" as argument, parameter.',
 	'rt-badorderby' => '{{doc-important|Do not translate "<code>ORDER BY (ob)</code>".}}
