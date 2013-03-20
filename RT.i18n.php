@@ -50,6 +50,8 @@ Translate "arg" as argument, parameter.',
 Translate "arg" as argument, parameter.',
 	'rt-badstatus' => '{{doc-important|Do not translate "<code>status (s)</code>".}}
 Translate "arg" as argument, parameter.',
+	'rt-badcfield' => 'Used as fatal error message. Parameters:
+* $1 - word',
 	'rt-badqueue' => '{{doc-important|Do not translate "<code>queue (q)</code>".}}
 Translate "arg" as argument, parameter.',
 	'rt-badowner' => '{{doc-important|Do not translate "<code>owner (o)</code>".}}
