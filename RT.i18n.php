@@ -44,6 +44,8 @@ You tried: '''\$1'''",
  */
 $messages['qqq'] = array(
 	'rt-desc' => '{{desc|name=RT|url=http://www.mediawiki.org/wiki/Extension:RT}}',
+	'rt-inactive' => 'Used as minimal output to indicate the extension is not active.',
+	'rt-badquery' => 'Used as fatal error message.',
 	'rt-badlimit' => '{{doc-important|Do not translate "<code>LIMIT (l)</code>".\'\'\' The "<code>(l)</code>" is a lowercase L.}}
 Translate "arg" as argument, parameter.',
 	'rt-badorderby' => '{{doc-important|Do not translate "<code>ORDER BY (ob)</code>".}}
@@ -56,6 +58,7 @@ Translate "arg" as argument, parameter.',
 Translate "arg" as argument, parameter.',
 	'rt-badowner' => '{{doc-important|Do not translate "<code>owner (o)</code>".}}
 Translate "arg" as argument, parameter.',
+	'rt-nomatches' => 'Used as minimal output to indicate the query returned empty result.',
 );
 
 /** Arabic (العربية)
@@ -466,8 +469,8 @@ Hai inserito: '''\$1'''",
  */
 $messages['ja'] = array(
 	'rt-desc' => '要求追跡 (RT) システムの装飾的なインターフェイス',
-	'rt-inactive' => 'RT 拡張機能は無効になっています',
-	'rt-badquery' => 'RT 拡張機能の RT データベースとの通信中にエラーが発生しました',
+	'rt-inactive' => 'RT 拡張機能は無効になっています。',
+	'rt-badquery' => 'RT 拡張機能の RT データベースと通信する際にエラーが発生しました。',
 	'rt-badlimit' => "LIMIT (l) の引数が無効: 数値でなければなりません。
 指定した値: '''$1'''",
 	'rt-badorderby' => "ORDER BY (ob) の引数が無効: 標準のフィールドでなければなりません (ドキュメントを参照)。
@@ -480,7 +483,7 @@ $messages['ja'] = array(
 指定した値: '''$1'''",
 	'rt-badowner' => "owner (o) の引数が無効: 有効な利用者名でなければなりません。
 指定した値: '''$1'''",
-	'rt-nomatches' => '一致する RT チケットは見つかりませんでした',
+	'rt-nomatches' => '一致する RT チケットが見つかりませんでした。',
 );
 
 /** Colognian (Ripoarisch)
