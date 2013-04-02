@@ -19,8 +19,8 @@ $messages = array();
  */
 $messages['en'] = array(
 	'rt-desc'         => 'Fancy interface to RT (Request Tracker)',
-	'rt-inactive'     => 'The RT extension is not active',
-	'rt-badquery'     => 'The RT extension encountered an error when talking to the RT database',
+	'rt-inactive'     => 'The RT extension is not active.',
+	'rt-badquery'     => 'The RT extension encountered an error when talking to the RT database.',
 	'rt-badlimit'     => "Invalid LIMIT (l) arg: must be a number.
 You tried: '''\$1'''",
 	'rt-badorderby'   => "Invalid ORDER BY (ob) arg: must be a standard field (see documentation).
@@ -33,7 +33,7 @@ You tried: '''\$1'''",
 You tried: '''\$1'''",
 	'rt-badowner'     => "Invalid owner (o) arg: must be a valid username.
 You tried: '''\$1'''",
-	'rt-nomatches'    => 'No matching RT tickets were found',
+	'rt-nomatches'    => 'No matching RT tickets were found.',
 );
 
 /** Message documentation (Message documentation)
