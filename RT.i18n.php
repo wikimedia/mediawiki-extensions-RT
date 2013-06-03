@@ -538,7 +538,7 @@ $messages['mk'] = array(
 	'rt-nomatches' => 'Не се пронајдени совпаѓачки RT билети',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
