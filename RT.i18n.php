@@ -85,6 +85,28 @@ $messages['ar'] = array(
 	'rt-nomatches' => 'لا تذاكر RT مطابقة تم العثور عليها',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'rt-desc' => 'Interfaz guapa pa RT (Request Tracker)',
+	'rt-inactive' => 'La estensión RT nun ta activa.',
+	'rt-badquery' => 'La estensión RT alcontró un error al comunicase cola base de datos RT.',
+	'rt-badlimit' => "Argumentu inválidu de LIMIT (l): tien de ser un númberu.
+Intentó: '''$1'''",
+	'rt-badorderby' => "Argumentu inválidu de ORDER BY (ob): tien de ser un campu estándar (ver la documentación).
+Intentó: '''$1'''",
+	'rt-badstatus' => "Argumentu inválidu de status (s): tien de ser un campu estándar (ver la documentación).
+Intentó: '''$1'''",
+	'rt-badcfield' => "Argumentu inválidu de campu personalizáu: tien de ser un pallabra simple (ver la documentación).
+Intentó: '''$1'''",
+	'rt-badqueue' => "Argumentu inválidu de queue (q): tien de ser una pallabra simple.
+Intentó: '''$1'''",
+	'rt-badowner' => "Argumentu inválidu de owner (o): tien de ser un nome d'usuariu válidu.
+Intentó: '''$1'''",
+	'rt-nomatches' => "Nun s'alcontraron tickets RT que casen.",
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
