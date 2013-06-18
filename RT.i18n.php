@@ -731,6 +731,7 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'rt-inactive' => "L'estenzione RT non g'è attivate",
+	'rt-nomatches' => 'Nisciune ticket RT ha state acchiate.',
 );
 
 /** Russian (русский)
