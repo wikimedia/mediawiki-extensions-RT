@@ -731,6 +731,10 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'rt-inactive' => "L'estenzione RT non g'è attivate",
+	'rt-badlimit' => "LIMIT Invalide (l) l'argomende: adda essere 'nu numere.
+E' pruvate cu: '''$1'''",
+	'rt-badorderby' => "ORDER BY Invalide (ob) l'argomende: adda essere 'nu cambe standàrd ('ndruche 'a documendazione).
+E' pruvate cu: '''$1'''",
 	'rt-nomatches' => 'Nisciune ticket RT ha state acchiate.',
 );
 
