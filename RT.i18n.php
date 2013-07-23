@@ -674,12 +674,13 @@ It l'has provà: '''$1'''",
 /** Portuguese (português)
  * @author Hamilton Abreu
  * @author Lijealso
+ * @author Luckas
  * @author Malafaya
  * @author Waldir
  */
 $messages['pt'] = array(
 	'rt-desc' => 'Interface bonita para o RT (Request Tracker)',
-	'rt-inactive' => 'A extensão RT não está activa',
+	'rt-inactive' => 'A extensão RT não está ativa.',
 	'rt-badquery' => 'A extensão RT encontrou um erro ao comunicar com a base de dados RT',
 	'rt-badlimit' => "Parâmetro LIMIT (l) inválido: deve ser um número.
 Tentou: '''$1'''",
