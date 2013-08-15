@@ -731,11 +731,21 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'rt-desc' => 'Inderfacce de fandasìe a RT (Request Tracker)',
 	'rt-inactive' => "L'estenzione RT non g'è attivate",
+	'rt-badquery' => "L'estenzione RT ha acchiate 'n'errore quanne parlave cu 'u database RT.",
 	'rt-badlimit' => "LIMIT Invalide (l) l'argomende: adda essere 'nu numere.
 E' pruvate cu: '''$1'''",
 	'rt-badorderby' => "ORDER BY Invalide (ob) l'argomende: adda essere 'nu cambe standàrd ('ndruche 'a documendazione).
 E' pruvate cu: '''$1'''",
+	'rt-badstatus' => "status (s) de l'argomende invalide: adda essere 'nu cambe standàrd ('ndruche 'a documendazione).
+Tu è pruvate: \"\$1\"",
+	'rt-badcfield' => "L'argomende du cambe personalizzate jè invalide: adda essere 'na parola semblice ('ndruche 'a documendazione).
+Tu è pruvate: \"\$1\"",
+	'rt-badqueue' => 'queue (q) de l\'argomende invalide: adda essere \'na parola semblice.
+Tu è pruvate: "$1"',
+	'rt-badowner' => 'owner (o) de l\'argomende invalide: adda essere \'nu nome utende valide.
+Tu è pruvate: "$1"',
 	'rt-nomatches' => 'Nisciune ticket RT ha state acchiate.',
 );
 
