@@ -47,17 +47,42 @@ $messages['qqq'] = array(
 	'rt-inactive' => 'Used as minimal output to indicate the extension is not active.',
 	'rt-badquery' => 'Used as fatal error message.',
 	'rt-badlimit' => '{{doc-important|Do not translate "<code>LIMIT (l)</code>".\'\'\' The "<code>(l)</code>" is a lowercase L.}}
-Translate "arg" as argument, parameter.',
+Used as fatal error message.
+
+Translate "arg" as argument, parameter.
+
+Parameters:
+* $1 - limit value',
 	'rt-badorderby' => '{{doc-important|Do not translate "<code>ORDER BY (ob)</code>".}}
-Translate "arg" as argument, parameter.',
+Used as fatal error message.
+
+Translate "arg" as argument, parameter.
+
+Parameters:
+* $1 - the specified word',
 	'rt-badstatus' => '{{doc-important|Do not translate "<code>status (s)</code>".}}
-Translate "arg" as argument, parameter.',
+Used as fatal error message.
+
+Translate "arg" as argument, parameter.
+
+Parameters:
+* $1 - the specified word',
 	'rt-badcfield' => 'Used as fatal error message. Parameters:
 * $1 - word',
 	'rt-badqueue' => '{{doc-important|Do not translate "<code>queue (q)</code>".}}
-Translate "arg" as argument, parameter.',
+Used as fatal error message.
+
+Translate "arg" as argument, parameter.
+
+Parameters:
+* $1 - the specified word',
 	'rt-badowner' => '{{doc-important|Do not translate "<code>owner (o)</code>".}}
-Translate "arg" as argument, parameter.',
+Used as fatal error message.
+
+Translate "arg" as argument, parameter.
+
+Parameters:
+* $1 - the specified word',
 	'rt-nomatches' => 'Used as minimal output to indicate the query returned empty result.',
 );
 
