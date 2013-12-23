@@ -202,6 +202,13 @@ Vi ste pokušali: '''$1'''",
 	'rt-nomatches' => 'Nisu pronađeni odgovarajući RT kuponi',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'rt-nomatches' => 'RT карточкаш цакарий.',
+);
+
 /** German (Deutsch)
  * @author Imre
  * @author LWChris
