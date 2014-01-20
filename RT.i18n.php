@@ -540,6 +540,17 @@ $messages['ja'] = array(
 	'rt-nomatches' => '一致する RT チケットが見つかりませんでした。',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'rt-inactive' => 'RT 확장 기능이 비활성화되어 있습니다.',
+	'rt-badquery' => 'RT 데이터배이터와 통신 중에 RT 확장기능에 오류가 발생했습니다.',
+	'rt-badlimit' => "유효하지 않은 LIMIT(l) 인수: 숫자여야 함.
+입력한 값: '''$1'''",
+	'rt-nomatches' => '일치하는 RT 티켓을 찾을 수 없습니다.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
