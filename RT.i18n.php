@@ -299,6 +299,14 @@ Intentaste: '''$1'''",
 	'rt-nomatches' => 'No se encontraron tickets RT coincidentes.',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'rt-desc' => 'رابط درجه یک برای آر‌تی (درخواست ردیاب)',
+	'rt-inactive' => 'فرمت RT فعال نیست.',
+);
+
 /** Finnish (suomi)
  * @author Centerlink
  * @author Nike
