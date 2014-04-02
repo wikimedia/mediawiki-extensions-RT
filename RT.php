@@ -14,7 +14,6 @@
  *
  * @author Greg Sabino Mullane <greg@endpoint.com>
  * @license MIT <http://www.opensource.org/licenses/mit-license.php>
- * @version 1.11
  * @link http://www.mediawiki.org/wiki/Extension:RT
  */
 
@@ -55,13 +54,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'RT',
-	'version'        => '1.11',
+	'version'        => '1.12.0',
 	'author'         => array( 'Greg Sabino Mullane' ),
 	'descriptionmsg' => 'rt-desc',
 	'url'            => $rt_uri,
 );
 
 // Pull in the Internationalization file and class
+$wgMessagesDirs['RT'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['RT'] =  dirname( __FILE__ ) . '/RT.i18n.php';
 $wgAutoloadClasses['RT'] = dirname( __FILE__ ) . '/RT_body.php';
 
