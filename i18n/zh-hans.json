@@ -1,11 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Yfdyh000"
-        ]
-    },
-    "rt-desc": "RT（请求跟踪器）的花哨接口",
-    "rt-inactive": "RT扩展未激活",
-    "rt-badquery": "与RT数据库交流时RT扩展遇到一个错误",
-    "rt-nomatches": "没有找到RT令牌。"
+	"@metadata": {
+		"authors": [
+			"Yfdyh000",
+			"Hudafu"
+		]
+	},
+	"rt-desc": "RT（请求跟踪器）的花哨接口",
+	"rt-inactive": "RT扩展程序未激活。",
+	"rt-badquery": "RT扩展程序在同RT数据库通信时出错。",
+	"rt-nomatches": "没有找到RT令牌。"
 }
