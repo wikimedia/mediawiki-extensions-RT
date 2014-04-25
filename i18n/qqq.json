@@ -4,7 +4,8 @@
 			"Fryed-peach",
 			"McDutchie",
 			"Purodha",
-			"Shirayuki"
+			"Shirayuki",
+			"Liuxinyu970226"
 		]
 	},
 	"rt-desc": "{{desc|name=RT|url=http://www.mediawiki.org/wiki/Extension:RT}}",
@@ -13,7 +14,7 @@
 	"rt-badlimit": "{{doc-important|Do not translate \"<code>LIMIT (l)</code>\".''' The \"<code>(l)</code>\" is a lowercase L.}}\nUsed as fatal error message.\n\nTranslate \"arg\" as argument, parameter.\n\nParameters:\n* $1 - limit value",
 	"rt-badorderby": "{{doc-important|Do not translate \"<code>ORDER BY (ob)</code>\".}}\nUsed as fatal error message.\n\nTranslate \"arg\" as argument, parameter.\n\nParameters:\n* $1 - the specified word",
 	"rt-badstatus": "{{doc-important|Do not translate \"<code>status (s)</code>\".}}\nUsed as fatal error message.\n\nTranslate \"arg\" as argument, parameter.\n\nParameters:\n* $1 - the specified word",
-	"rt-badcfield": "Used as fatal error message. Parameters:\n* $1 - word",
+	"rt-badcfield": "Used as fatal error message. \n\nTranslate \"arg\" as argument, parameter.\n\nParameters:\n* $1 - word",
 	"rt-badqueue": "{{doc-important|Do not translate \"<code>queue (q)</code>\".}}\nUsed as fatal error message.\n\nTranslate \"arg\" as argument, parameter.\n\nParameters:\n* $1 - the specified word",
 	"rt-badowner": "{{doc-important|Do not translate \"<code>owner (o)</code>\".}}\nUsed as fatal error message.\n\nTranslate \"arg\" as argument, parameter.\n\nParameters:\n* $1 - the specified word",
 	"rt-nomatches": "Used as minimal output to indicate the query returned empty result."
