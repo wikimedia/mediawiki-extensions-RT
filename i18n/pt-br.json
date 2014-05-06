@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eduardo.mps",
-			"Giro720"
+			"Giro720",
+			"Luckas"
 		]
 	},
 	"rt-desc": "Interface para o RT (Request Tracker)",
@@ -13,6 +14,6 @@
 	"rt-badstatus": "Parâmetro status (s) inválido: é necessário que seja um campo padrão (veja a documentação).\nVocê tentou: '''$1'''",
 	"rt-badcfield": "Argumento inválido para o campo personalizado: tem de ser uma palavra simples (consulte a documentação).\nTentou: '''$1'''",
 	"rt-badqueue": "Parâmetro queue (q) inválido: é preciso que seja uma palavra simples.\nVocê tentou: '''$1'''",
-	"rt-badowner": "Parâmetro owner (o) inválido: é necessário que seja um nome de utilizador válido.\nVocê tentou: '''$1'''",
+	"rt-badowner": "Parâmetro owner (o) inválido: é necessário que seja um nome de usuário válido.\nVocê tentou: '''$1'''",
 	"rt-nomatches": "Nenhum ticket RT correspondente foi encontrado"
 }
