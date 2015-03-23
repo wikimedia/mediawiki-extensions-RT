@@ -5,10 +5,11 @@
 			"McDutchie",
 			"Purodha",
 			"Shirayuki",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Umherirrender"
 		]
 	},
-	"rt-desc": "{{desc|name=RT|url=http://www.mediawiki.org/wiki/Extension:RT}}",
+	"rt-desc": "{{desc|name=RT|url=https://www.mediawiki.org/wiki/Extension:RT}}",
 	"rt-inactive": "Used as minimal output to indicate the extension is not active.",
 	"rt-badquery": "Used as fatal error message.",
 	"rt-badlimit": "{{doc-important|Do not translate \"<code>LIMIT (l)</code>\".''' The \"<code>(l)</code>\" is a lowercase L.}}\nUsed as fatal error message.\n\nTranslate \"arg\" as argument, parameter.\n\nParameters:\n* $1 - limit value",
