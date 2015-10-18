@@ -6,7 +6,7 @@
 			"Liuxinyu970226"
 		]
 	},
-	"rt-desc": "RT（请求跟踪器）的花哨接口",
+	"rt-desc": "RT（请求跟踪器）的特殊界面",
 	"rt-inactive": "RT扩展程序未激活。",
 	"rt-badquery": "RT扩展程序在同RT数据库通信时出错。",
 	"rt-badlimit": "无效的LIMIT (l)理由：必须是数字。您曾尝试：'''$1'''",
