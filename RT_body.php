@@ -67,7 +67,7 @@ class RT {
 			if ( $ticketnum ) {
 				return "<span class='rt-ticket-inactive'>RT #$ticketnum</span>";
 			}
-			$msg = wfMsg( 'rt-inactive' );
+			$msg = wfMessage( 'rt-inactive' )->escaped();
 			return "<table class='rt-table-inactive' border='1'><tr><td>$msg</td></tr></table>";
 		}
 
@@ -108,7 +108,7 @@ class RT {
 			$SQL = "$ticketquery $whereclause\nAND t.id = $ticketnum";
 			$res = pg_query( $dbh, $SQL );
 			if ( !$res ) {
-				die ( wfMsg( 'rt-badquery' ) );
+				die ( wfMessage( 'rt-badquery' )->escaped() );
 			}
 			$info = pg_fetch_array( $res );
 			if ( !$info ) {
@@ -125,7 +125,7 @@ class RT {
 		if ( array_key_exists( 'l', $args ) ) {
 			$limit = trim( $args['l'] );
 			if ( !preg_match( '/^ *\d+ *$/', $limit ) ) {
-				die ( wfMsg ( 'rt-badlimit', $limit ) );
+				die ( wfMessage ( 'rt-badlimit', $limit )->escaped() );
 			}
 			$limit = " LIMIT $limit";
 		}
@@ -153,13 +153,13 @@ class RT {
 				$word = ltrim( $word, '!' );
 				$mod = $oldlen !== strlen( $word ) ? ' DESC' : '';
 				if ( !preg_match( '/^\w+$/', $word ) ) {
-					die ( wfMsg ( 'rt-badorderby', $word ) );
+					die ( wfMessage ( 'rt-badorderby', $word )->escaped() );
 				}
 				if ( array_key_exists( $word, $valid_orderby ) ) {
 					$word = $valid_orderby[$word];
 				}
 				elseif ( !preg_match ( '/^\d+$/', $word ) ) {
-					die ( wfMsg ( 'rt-badorderby', $word ) );
+					die ( wfmessage ( 'rt-badorderby', $word )->escaped() );
 				}
 				$orderby .= " $word$mod,";
 			}
@@ -178,7 +178,7 @@ class RT {
 				$searchstatus = 't.status IN (';
 				foreach ( preg_split( '/\s*,\s*/', $statusargs ) as $word ) {
 					if ( !in_array( $word, $valid_status ) ) {
-						die ( wfMsg ( 'rt-badstatus', $word ) );
+						die ( wfMessage ( 'rt-badstatus', $word )->escaped() );
 					}
 					$searchstatus .= "'$word',";
 				}
@@ -197,7 +197,7 @@ class RT {
 			foreach ( preg_split( '/\s*,\s*/', $qargs ) as $word ) {
 				$word = trim( $word );
 				if ( !preg_match( '/^[\w \.-]+$/', $word ) ) {
-					die ( wfMsg ( 'rt-badqueue', $word ) );
+					die ( wfMessage ( 'rt-badqueue', $word )->escaped() );
 				}
 				$searchq .= "'$word',";
 			}
@@ -213,7 +213,7 @@ class RT {
 			foreach ( preg_split( '/\s*,\s*/', $oargs ) as $word ) {
 				$word = trim( $word );
 				if ( !preg_match( '/^[\w\@\.\-\:\/]+$/', $word ) ) {
-					die ( wfMsg ( 'rt-badowner', $word ) );
+					die ( wfMessage ( 'rt-badowner', $word )->escaped() );
 				}
 				$searchowner .= "'$word',";
 			}
@@ -232,7 +232,7 @@ class RT {
 			foreach ( preg_split( '/\s*,\s*/', $cfargs ) as $word ) {
 				$word = trim( $word );
 				if ( !preg_match( '/^[\w \.-]+$/', $word ) ) {
-					die ( wfMsg ( 'rt-badcfield', $word ) );
+					die ( wfmessage ( 'rt-badcfield', $word )->escaped() );
 				}
 				$whereclause .= "'$word',";
 				$ticketquery = preg_replace( '/COALESCE/', "\nov.content AS custom, COALESCE", $ticketquery);
@@ -244,11 +244,11 @@ class RT {
 		$SQL = "$ticketquery $whereclause $orderby $limit";
 		$res = pg_query( $dbh, $SQL );
 		if ( !$res ) {
-			die ( wfMsg( 'rt-badquery' ) );
+			die ( wfmessage( 'rt-badquery' )->escaped() );
 		}
 		$info = pg_fetch_all( $res );
 		if ( !$info ) {
-			$msg = wfMsg( 'rt-nomatches' );
+			$msg = wfmessage( 'rt-nomatches' )->escaped();
 			return "<table class='rt-table-empty' border='1'><tr><th>$msg</th><tr></table>";
 		}
 
