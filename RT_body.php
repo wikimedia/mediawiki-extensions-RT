@@ -6,7 +6,7 @@ class RT {
 	 * Register the hook with ParserFirstCallInit
 	 */
 	public static function registerHook( &$parser ) {
-		$parser->setHook( 'rt', array( 'RT::render' ) );
+		$parser->setHook( 'rt', 'RT::render' );
 		return true;
 	}
 
