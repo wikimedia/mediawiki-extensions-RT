@@ -62,7 +62,6 @@ $wgExtensionCredits['parserhook'][] = array(
 
 // Pull in the Internationalization file and class
 $wgMessagesDirs['RT'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['RT'] =  dirname( __FILE__ ) . '/RT.i18n.php';
 $wgAutoloadClasses['RT'] = dirname( __FILE__ ) . '/RT_body.php';
 
 // Register hook
