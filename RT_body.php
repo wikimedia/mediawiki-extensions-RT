@@ -254,7 +254,7 @@ class RT {
 
 		// Figure out what columns to show
 		// Anything specifically requested is shown
-		// Everything else is either on or off by default, but can be overidden
+		// Everything else is either on or off by default, but can be overridden
 		$output = '';
 
 		// The queue: show by default unless searching a single queue
