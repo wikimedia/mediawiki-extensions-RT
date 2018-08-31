@@ -15,6 +15,6 @@
 	"rt-badstatus": "Parâmetro <code>status</code> (<code>s</code>) inválido: deve ser um campo padrão (veja a documentação).\nTentou: '''$1'''",
 	"rt-badcfield": "Argumento inválido para o campo personalizado: tem de ser uma palavra simples (consulte a documentação).\nTentou: '''$1'''",
 	"rt-badqueue": "Parâmetro <code>queue</code> (<code>q</code>) inválido: deve ser uma palavra simples.\nTentou: '''$1'''",
-	"rt-badowner": "Parâmetro <code>owner</code> (<code>o</code>) inválido: deve ser um nome de utilizador válido.\nTentou: '''$1'''",
+	"rt-badowner": "Parâmetro <code>owner</code> (<code>o</code>) inválido: deve ser um nome de usuário válido.\nTentou: '''$1'''",
 	"rt-nomatches": "Nenhum ticket RT correspondente foi encontrado"
 }
