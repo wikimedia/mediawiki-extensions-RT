@@ -5,7 +5,7 @@ Written by Greg Sabino Mullane, End Point Corporation <greg@endpoint.com>
 
 This is only a quick overview. Full documentation can be found at:
 
-http://www.mediawiki.org/wiki/Extension:RT
+https://www.mediawiki.org/wiki/Extension:RT
 
 
 PREREQUISITES
@@ -13,7 +13,7 @@ PREREQUISITES
 
 This module requires the use of the balloons extension:
 
-http://www.mediawiki.org/wiki/Extension:Balloons
+https://www.mediawiki.org/wiki/Extension:Balloons
 
 
 INSTALLATION
@@ -124,4 +124,3 @@ very highly trafficed page unless your database can handle the load.
 
 Use of these tags is akin to making your entire RT database available to anyone who
 can edit the wiki. Hopefully, those communities have a complete overlap.
-

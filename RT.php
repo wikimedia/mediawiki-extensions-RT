@@ -14,10 +14,10 @@
  *
  * @author Greg Sabino Mullane <greg@endpoint.com>
  * @license MIT <http://www.opensource.org/licenses/mit-license.php>
- * @link http://www.mediawiki.org/wiki/Extension:RT
+ * @link https://www.mediawiki.org/wiki/Extension:RT
  */
 
-$rt_uri = 'http://www.mediawiki.org/wiki/Extension:RT';
+$rt_uri = 'https://www.mediawiki.org/wiki/Extension:RT';
 
 # Default values: Override in LocalSettings.php, not here!
 $wgRequestTracker_URL         = 'http://rt.example.com/Ticket/Display.html?id';
