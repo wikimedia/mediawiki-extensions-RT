@@ -36,7 +36,7 @@ class RT {
 
 		// Disable all caching unless told not to
 		if ( !$wgRequestTracker_Cachepage ) {
-			$parser->disableCache();
+			$parser->getOutput()->updateCacheExpiry( 0 );
 		}
 
 		// Try and connect to the database if we are active
