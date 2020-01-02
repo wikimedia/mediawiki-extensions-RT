@@ -41,14 +41,13 @@ class RT {
 
 		// Try and connect to the database if we are active
 		if ( $wgRequestTracker_Active ) {
-			global $wgUser;
 			$dbh = pg_connect( $wgRequestTracker_DBconn );
 			if ( $dbh == false ) {
 				wfDebug( "DB connection error\n" );
 				wfDebug( "Connection string: $wgRequestTracker_DBconn\n" );
 				$wgRequestTracker_Active = 0;
 			}
-			$tz = $wgUser->getOption( 'timecorrection' );
+			$tz = $parser->getUser()->getOption( 'timecorrection' );
 			if ( $tz ) {
 				$found = array();
 				if ( preg_match ( '/((-?\d\d?):(\d\d))/', $tz, $found ) ) {
