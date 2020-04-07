@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ferrer",
-			"Александр Сигачёв",
-			"Okras"
+			"Okras",
+			"Александр Сигачёв"
 		]
 	},
 	"rt-desc": "Простой интерфейс для RT (Request Tracker, отслеживание запросов)",

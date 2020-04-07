@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата",
-			"Piramidion"
+			"Piramidion",
+			"Ата"
 		]
 	},
 	"rt-desc": "Простий інтерфейс для RT (Request Tracker, відслідковування запитів)",

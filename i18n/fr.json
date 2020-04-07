@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Crochet.david",
+			"Gomoko",
 			"IAlex",
-			"Peter17",
-			"Gomoko"
+			"Peter17"
 		]
 	},
 	"rt-desc": "Interface pour RT (Request Tracker)",

@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Elisardojm",
 			"McDutchie",
-			"Toliño",
-			"Elisardojm"
+			"Toliño"
 		]
 	},
 	"rt-desc": "Interface da extensión RT (''Request Tracker'')",
