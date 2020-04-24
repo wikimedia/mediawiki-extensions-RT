@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
+			"Phjtieudoc",
 			"Vinhtantran"
 		]
 	},
@@ -14,5 +15,5 @@
 	"rt-badcfield": "Thông số trường tùy biến sai: phải là một từ đơn giản (xem tài liệu đi kèm).\nBạn đã gọi: '''$1'''",
 	"rt-badqueue": "Thông số hàng đợi (q) sai: phải là từ đơn giản.\nBạn đã gọi: '''$1'''",
 	"rt-badowner": "Thông số owner (o) sai: phải là một tên người dùng đã có.\nBạn đã gọi: '''$1'''",
-	"rt-nomatches": "Không tìm thấy thẻ RT nào trùng với tìm kiếm"
+	"rt-nomatches": "Không tìm thấy thẻ RT nào phù hợp."
 }
