@@ -4,7 +4,8 @@
 			"Crochet.david",
 			"Gomoko",
 			"IAlex",
-			"Peter17"
+			"Peter17",
+			"Verdy p"
 		]
 	},
 	"rt-desc": "Interface pour RT (Request Tracker)",
@@ -15,6 +16,6 @@
 	"rt-badstatus": "Argument <code>status</code> (<code>s</code>) non valide : ce doit être un champ standard (voir la documentation).\nVous avez essayé : '''$1'''",
 	"rt-badcfield": "Argument de champ personnalisé invalide : doit être un mot simple (voir documentation).\nVous avec essayé : '''$1'''",
 	"rt-badqueue": "Argument <code>queue</code> (<code>q</code>) non valide : ce doit être un simple mot.\nVous avez essayé : '''$1'''",
-	"rt-badowner": "Argument <code>owner</code> (<code>o</code>) non valide : ce doit être un nom d’utilisateur valide.\nVous avez essayé : '''$1'''",
+	"rt-badowner": "Argument <code>owner</code> (<code>o</code>) incorrect : ce doit être un nom d’utilisateur valide.\nVous avez essayé : '''$1'''",
 	"rt-nomatches": "Aucun ticket RT n’a été trouvé"
 }
