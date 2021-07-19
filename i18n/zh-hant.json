@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
 	"rt-desc": "請求追蹤（Request Tracker、RT）的特有介面",
-	"rt-inactive": "RT 擴充功能未啟用。",
+	"rt-inactive": "未啟用RT擴充功能。",
 	"rt-badquery": "RT 擴充功能在與 RT 資料庫交談時發生錯誤。",
 	"rt-badlimit": "無效的 <code>LIMIT</code>(<code>l</code>) 參數：必須是數字。\n您所採用的是：'''$1'''",
 	"rt-badorderby": "無效 <code>ORDER BY</code> (<code>ob</code>) 參數：必須是標準欄位（請參閱文件）。\n您所採用的是：'''$1'''",
